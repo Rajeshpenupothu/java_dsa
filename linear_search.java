@@ -7,7 +7,7 @@ class HelloWorld {
         if(result != -1)
         System.out.println("Element fount at index:"+result);
         else
-        System.out.println("Element not fount");
+        System.out.println("Element not found");
         }
         public static int linearsearch(int[] nums,int target){
             for(int i=0;i<nums.length;i++)
